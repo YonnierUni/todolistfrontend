@@ -13,7 +13,7 @@ import Footer from "./components/features/Footer/Footer";
 
 export const appContext = createContext(null);
 
-export const baseUrl = "http://localhost:8080";
+export const baseUrl = "https://879c-181-59-236-16.ngrok-free.app";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);

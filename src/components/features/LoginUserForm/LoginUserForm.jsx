@@ -18,7 +18,7 @@ const LoginUserForm = ({ setDialogText }) => {
     contrasena: "",
   });
 
-  function iniciarSesion(e) {
+  function loginUser(e) {
     e.preventDefault();
     fetch(`${baseUrl}/usuario/loginUser`, {
       method: "POST",
@@ -54,7 +54,7 @@ const LoginUserForm = ({ setDialogText }) => {
   return (
     <form
       onSubmit={(e) => {
-        iniciarSesion(e);
+        loginUser(e);
       }}
       className="box box1"
     >

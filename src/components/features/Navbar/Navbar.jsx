@@ -90,7 +90,7 @@ const Navbar = () => {
                 navigate("/home");
               }}
             >
-              Cerrar sesion
+              Log out
             </span>
           </li>
         ) : (

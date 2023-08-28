@@ -21,7 +21,7 @@ const Modal = ({ openModal, openOrCloseModal, note }) => {
 
     const getAllCategoryByUser = async (userId) => {
         fetch(`${baseUrl}/category/get-all-by-user/${userId}`, {
-            method: "GET",
+                  method: "GET",
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json",
@@ -55,7 +55,7 @@ const Modal = ({ openModal, openOrCloseModal, note }) => {
         });
 
         await fetch(`${baseUrl}/note/save-note`, {
-            method: "POST",
+                  method: "POST",
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json",

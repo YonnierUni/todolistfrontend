@@ -7,7 +7,7 @@ const LoginUser = () => {
   return (
     <div className={styles.loginUser}>
       <hr></hr>
-      <h4 className={styles.subTitle}>Iniciar sesion con su cuenta</h4>
+      <h4 className={styles.subTitle}>Log in to your account</h4>
       <LoginUserForm setDialogText={setDialogText} />
     </div>
   );
