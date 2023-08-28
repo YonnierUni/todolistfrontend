@@ -1,0 +1,51 @@
+.cardCategoryContent {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+
+}
+
+.cardContentInfo h2 {
+    font-size: larger;
+    margin: 5px;
+}
+
+.cardIcon {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cardContent {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.cardContentInfo {
+    width: 100%;
+}
+
+.cardButtonContent {
+    margin-top: -10px;
+}
+
+.button {
+    transform: rotate(2deg);
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+}
+
+@media screen and (max-width: 1030px) {
+
+    .cardContent {
+        flex-direction: column;
+    }
+
+}

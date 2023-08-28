@@ -1,0 +1,23 @@
+.loginUser {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .subTitle {
+    font-size: 21px;
+    padding: 20px 0;
+  }
+  
+hr {
+  margin-top: 30px;
+  height: 5px;
+  border-width: 3px 4px 3px 5px;
+  border-radius: 95% 1% 92% 1%/1% 95% 1% 95%;
+  background-color: black;
+}
+  .loginUser > * {
+    margin: auto;
+    text-align: center;
+  }
+  
+  

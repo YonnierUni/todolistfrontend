@@ -1,0 +1,35 @@
+.navbar {
+  clear: none;
+
+  display: flex;
+  background-color: var(--background-color1);
+  align-items: center;
+  color: var(--text-color1);
+}
+
+.navbar__rightItems {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-decoration: none;
+
+}
+.navbar__leftItems {
+  display: flex;
+  font-weight: bold;
+  vertical-align: middle;
+
+  justify-content: start;
+  width: 30%;
+
+  text-decoration: none;
+  height: 100%;
+  padding-left: 1.3rem;
+}
+
+::marker {
+  color: blue;
+  font-size: 0px;
+}

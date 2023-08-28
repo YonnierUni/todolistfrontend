@@ -1,0 +1,10 @@
+.mainSection {
+  margin: 0px 5%;
+  min-height: 450px;
+}
+
+@media (max-width: 700px) {
+  .mainSection {
+    padding: 30px 5%;
+  }
+}

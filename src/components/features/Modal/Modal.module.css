@@ -1,0 +1,114 @@
+.modalContent {
+    margin: 25px;
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    border: solid black;
+    border-color: black;
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    padding-top: 0px;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 1% 95% 1% 95%/95% 1% 92% 1%;
+    transform: rotate(0deg);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.textLabel {
+    width: 30%;
+}
+
+.buttonbox4 {
+    display: flex;
+
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+.evenboxinnerModi {
+    justify-content: flex-end;
+
+    transform: rotate(2deg);
+    height: 30px;
+    width: 70%;
+    margin: 15px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+}
+
+.modal__categories__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.evenboxinnerModiLogIn {
+    transform: rotate(-2deg);
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+    transition: transform 0.2s;
+
+}
+
+.evenboxinnerModiLogIn:hover {
+
+    transform: scale(1.02);
+}
+
+
+.selectCategory{
+    display: flex;
+}
+.evenboxinnerModiSelect {
+    transform: rotate(1deg);
+    height: 30px;
+    width: 190px;
+    margin: 15px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+    transition: transform 0.2s;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.evenboxinnerModiSelect:hover {
+
+    transform: scale(1.02);
+}
+@media screen and (max-width: 1030px) {
+
+    .modal__categories__grid {
+        grid-template-columns: 50% 50%;
+
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .modal__categories__grid {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+}

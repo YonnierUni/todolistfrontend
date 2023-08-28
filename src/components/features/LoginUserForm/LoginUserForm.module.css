@@ -1,0 +1,39 @@
+
+.formContent{
+}
+
+.buttonbox4 {
+    display: flex;
+    width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+.evenboxinnerModi {
+    transform: rotate(2deg);
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+}
+
+.evenboxinnerModiLogIn {
+    transform: rotate(-2deg);
+    height: 30px;
+    width: 300px;
+    margin: 15px;
+    float: right;
+    background: #ddd;
+    border: 1px solid #222;
+    box-shadow: 3px 3px 0 #222;
+    transition: transform 0.2s;
+
+}
+.evenboxinnerModiLogIn:hover{
+  
+    transform:scale(1.02);
+  }

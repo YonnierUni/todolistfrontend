@@ -1,0 +1,94 @@
+
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+:root {
+  --background-color1: #50656d;
+  /*text colors*/
+  --text-color1: #ffffff;
+  /*border colors*/
+  --border-color1: #d3d3d3;
+  --font--family-banger: 'Bangers', cursive;
+}
+
+.footer {
+  --background-color1: #363839;
+  height: 500px;
+}
+
+.leaflet-container{  
+  height: 50vh;
+}
+
+a {
+  all: unset;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:hover {
+  font-size: 27px;
+  transform:scale(1.02);
+
+}
+
+body{
+  background:#fff;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+  font-size: 25px;
+ 
+  
+}
+.box{
+  margin:25px;
+  width:350px;
+  height:300px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+}
+
+.box1{
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+.box2{
+  display: flex;
+  width:auto;
+  height:auto;
+  padding: auto;
+  align-items: center;
+  border-width: 3px 3px 5px 5px;
+  border-radius:1% 95% 1% 95%/95% 4% 92% 5%;
+  transform: rotate(-1deg);
+}
+
+.box3{
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
+}
+.evenboxinner{
+  transform: rotate(2deg);
+  margin:10px;
+  margin-top: 20px;
+  padding: 5px;
+  float:right;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+  transition: transform 0.2s;
+}
+
+.evenboxinner:hover{
+  
+  transform:scale(1.1);
+}

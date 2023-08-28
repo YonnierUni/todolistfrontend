@@ -1,0 +1,42 @@
+.toDoList {
+    height: 100%;
+}
+
+.subTitle {
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+hr {
+    margin-top: 30px;
+    height: 5px;
+    border-width: 3px 4px 3px 5px;
+    border-radius: 95% 1% 92% 1%/1% 95% 1% 95%;
+    background-color: black;
+}
+
+.home__notes__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+}
+
+
+@media screen and (max-width: 1030px) {
+
+    .home__notes__grid {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+.home__notes__grid>* {
+    transition: 0.2s transform;
+}
+
+.home__notes__grid>*:hover {
+    transform: scale(1.01);
+}

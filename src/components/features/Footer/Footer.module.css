@@ -1,0 +1,12 @@
+.footerContent {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color1);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
