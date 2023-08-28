@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <ul className={styles.navbar__leftItems}>
         <Link to={"/todolist"}>
-          <span> Inicio To-Do List</span>
+          <span> Home To-Do List</span>
         </Link>
       </ul>
       <ul className={styles.navbar__rightItems}>
@@ -38,7 +38,7 @@ const Navbar = () => {
         ) : (
           <>
             <li>
-              <Link to={"/loginUser"} >Iniciar sesion</Link>
+              <Link to={"/loginUser"} >Sign In</Link>
             </li>
             <li>
               <Link
@@ -78,7 +78,7 @@ const Navbar = () => {
               </ul>
             </>
           ) : (
-            <Link to={"/crearUsuario"}>Crear usuario</Link>
+            <Link to={"/signup"}>Sign Up</Link>
           )}
         </li>
         {currentUser ? (
